@@ -1,0 +1,125 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+* p{
+ font-size: 20px;
+ 
+}
+
+/*Logo del site y palabra*/
+
+.img1{
+    display: flex;
+  justify-content: center;
+
+}
+
+header .titulo1 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+    margin-left: 100px;
+    margin-top: -40px;
+}
+
+
+.hr1{
+    margin: 15px;
+   
+}
+
+/*navegacion*/
+.navegador ul{
+    list-style-type: none;
+    text-align: center
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.navegador li{
+    display: inline;
+    text-align: center;
+    margin: 10px;
+   color: rgb(255, 255, 255);
+   border: #ffffff 2px solid;;
+   padding: 4px;
+
+}
+
+
+.logos a img{
+    margin-right: 20px;
+    margin-top: -25px;
+    float: right;
+}
+
+.cabecera header {
+    width: auto;
+    height: 125px;
+    background: rgb(27, 28, 29);
+}
+
+
+
+/*Seccion 1 del site*/
+
+.sect{
+    width: 950px;
+    height: auto;
+    margin:0px auto; /*ESTO CENTRA EL DIV*/
+ 
+    padding: 5px;
+}
+
+.hr2{
+    border-color: rgb(240, 240, 240);
+    width: 15%;
+    margin: 5px;
+    margin-left: 0px;
+}
+h2{
+    font-size: 40px;
+}
+
+.sect img{
+    margin-top: 10px;
+}
+
+
+/*Noticia 1*/
+.noticia1 img{
+    width: 120px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.noticia1 p{
+    margin-top: 20px;
+    margin-left:130px;
+}
+
+/*Noticia 2*/
+
+.noticia2 img{
+    width: 120px;
+    margin-top: -10px;
+    position: absolute;
+}
+
+.noticia2 p{
+    margin-left: 130px;
+}
+
+
+/*Footer*/
+
+footer p{
+    text-align: center;
+    color: #ffffff;
+    background-color: #31306b;
+}

@@ -1,0 +1,90 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 0;
+}
+* p{
+ font-size: 20px;
+ 
+}
+
+/*Logo del site y palabra*/
+
+.img1{
+    display: flex;
+  justify-content: center;
+
+}
+
+header .titulo1 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    
+    margin-left: 100px;
+    margin-top: -40px;
+}
+
+
+.hr1{
+    margin: 15px;
+   
+}
+
+/*navegacion*/
+.navegador ul{
+    list-style-type: none;
+    text-align: center
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.navegador li{
+    display: inline;
+    text-align: center;
+    margin: 10px;
+   color: rgb(255, 255, 255);
+   border: #ffffff 2px solid;;
+   padding: 4px;
+
+}
+
+
+.logos a img{
+    margin-right: 20px;
+    margin-top: -25px;
+    float: right;
+}
+
+.cabecera header {
+    width: auto;
+    height: 125px;
+    background: rgb(27, 28, 29);
+}
+
+
+/*Seccion 1 del sitio*/
+
+.sect{
+    width: 950px;
+    height: auto;
+    margin:0px auto; /*ESTO CENTRA EL DIV*/
+    padding: 5px;
+    background-color: rgb(216, 210, 210);
+}
+
+.sect iframe{
+    margin-left: 170px;
+}
+
+
+
+/*Footer*/
+
+footer p{
+    text-align: center;
+    color: #ffffff;
+    background-color: #31306b;
+}
